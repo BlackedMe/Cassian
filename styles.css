@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+h1,
+a {
+  color: white;
+  font-family: ubuntu;
+}
+
+#container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+
+#navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#navbar-nav li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+
+#navbar-nav li a {
+  text-decoration: none;
+}
+
+#slideshow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#slideshow img {
+  border: 5px solid whitesmoke;
+}
+
+#footer {
+  background-color: whitesmoke;
+  padding: 5px;
+}
