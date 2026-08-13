@@ -48,10 +48,11 @@ a {
 }
 
 #slideshow img {
-  border: 5px solid whitesmoke;
+  border-radius: 10px;
+  outline: 1px solid white;
 }
 
 #footer {
-  background-color: whitesmoke;
-  padding: 5px;
+  background-color: white;
+  padding: 2px;
 }
